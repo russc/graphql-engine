@@ -189,6 +189,7 @@ library
                      , Hasura.GraphQL.Resolve.Context
                      , Hasura.GraphQL.Resolve.InputValue
                      , Hasura.GraphQL.Resolve.Introspect
+                     , Hasura.GraphQL.Resolve.Insert
                      , Hasura.GraphQL.Resolve.Mutation
                      , Hasura.GraphQL.Resolve.Select
 
@@ -205,6 +206,7 @@ library
                      , Hasura.SQL.Value
                      , Hasura.SQL.GeoJSON
                      , Hasura.SQL.Time
+                     , Hasura.SQL.Rewrite
                      , Hasura.Prelude
                      , Hasura.Logging
                      , Ops

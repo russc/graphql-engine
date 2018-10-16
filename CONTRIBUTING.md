@@ -3,7 +3,7 @@
 *First*: if you're unsure or afraid of anything, just ask or submit the issue or
 pull request anyway. You won't be yelled at for giving your best effort. The
 worst that can happen is that you'll be politely asked to change something. We
-appreciate any sort of contributions, and don't want a wall of rules to get in
+appreciate any sort of contributions and don't want a wall of rules to get in
 the way of that.
 
 However, for those individuals who want a bit more guidance on the best way to
@@ -22,7 +22,10 @@ consisting of 3 components. Each have their own contributing guides:
 3. [Console (JavaScript)](console/README.md#contributing-to-hasura-console)
 
 All of the three components have a single version, denoted by either the git
-tag, or a combination of branch name and git commit SHA.
+tag or a combination of branch name and git commit SHA.
+
+For all contributions, a CLA (Contributor License Agreement) needs to be signed [here](https://cla-assistant.io/hasura/graphql-engine) before (or after) the pull request has been submitted. A bot will prompt the same as a pull request comment.
+
 
 ### Docs
 
@@ -62,11 +65,11 @@ before-mentioned sections).
   #<issue-no>` in the commit message, at the end.
   For example: `resolve answers to everything (fix #42)` or `resolve answers to everything, fix #42`
 
-- Rebase master with your branch before submitting pull request.
+- Rebase master with your branch before submitting a pull request.
 
 ## Commit messages
 
- - The first line should be a summary of the changes - not execeeding 50
+ - The first line should be a summary of the changes - not exceeding 50
    characters. Followed by an optional body which has more details about the
    changes. (https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
